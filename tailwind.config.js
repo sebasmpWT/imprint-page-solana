@@ -4,7 +4,17 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        'xs': '.625rem',
+      },
+      fontFamily: {
+        arkitek: ["ARKITEK", "regular"]
+      },
+      maxWidth: {
+        'xs': '17rem'
+      }
+    },
   },
   plugins: [],
 }
