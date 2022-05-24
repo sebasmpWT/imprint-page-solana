@@ -6,7 +6,7 @@ import twitterNegative from '../images/twitter-negative.png'
 
 export default function Footer() {
     return (
-        <footer className="p-4 bg-black flex flex-wrap">
+        <footer className="p-4 bg-[#0C0C0C] flex flex-wrap">
             <div className="basis-1/2 mx-auto">
                 <div className="w-60 mx-auto pt-28">
                     <Image src={nationIconWhite} width={106} height={43}/>
