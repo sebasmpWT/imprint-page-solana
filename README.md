@@ -9,7 +9,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
-In order to run the code, download it from this repo, make sure you have [Next.js](https://nextjs.org) and [TailwindCSS](https://tailwindcss.com/docs/installation) on you machine machine and run the following command:
+In order to run the code, download it from this repo, make sure you have [Next.js](https://nextjs.org) and [TailwindCSS](https://tailwindcss.com/docs/installation) on your machine and run the following command:
 ```
 npm run dev
 ```
