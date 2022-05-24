@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ImprintListing() {
     return (
-        <div className="pt-28 block mb-44">
+        <div className="pt-12 sm:pt-28 block mb-44">
             <div className="mr-4 mt-4 pt-4 border-t-2 border-black border-dotted dark:border-white">
                 <p className="font-arkitek font-normal text-base leading-4 text-black dark:text-white">Eliz Akgün,&nbsp;
                 <span className="font-arkitek font-normal text-base leading-4 opacity-30">NATION</span>

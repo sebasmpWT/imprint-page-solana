@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer className="p-4 bg-[#0C0C0C] flex flex-wrap">
             <div className="basis-1/2 mx-auto">
-                <div className="w-60 mx-auto pt-28">
+                <div className="w-30 sm:w-60 mx-auto pt-28">
                     <Image src={nationIconWhite} width={106} height={43}/>
                     <h4 className="pt-5 text-white font-arkitek text-xl font-normal leading-6">Home to the decentralized movements of the future.</h4>
                     <div className="flex space-x-5 items-center pt-5">
