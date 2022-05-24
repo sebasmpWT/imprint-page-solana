@@ -11,11 +11,9 @@ const Home: NextPage = () => {
   return (
     <div className="mx-auto bg-white dark:bg-black">
       <Navbar />
-
       <div className="fixed invert dark:invert-0 w-1/2">
         <Image src={dottedAsset1} width={466} height={863}/>
       </div>
-
       <div className="flex flex-wrap">
         <div className="basis-1/2 mx-auto max-w-xs relative z-10 my-8 sm:my-0">
             <div className="sticky top-72">
@@ -32,15 +30,13 @@ const Home: NextPage = () => {
           <ImprintListing />
         </div>
       </div>
-      <div className="fixed bottom-8 right-0 dark:invert-0 invert w-1/2">
+      <div className="fixed bottom-8 right-0 dark:invert-0 invert w-1/2 md:w-max">
         <Image src={dottedAsset2} width={633} height={338}/>
       </div>
       <div className="relative"> 
           <Footer />
         </div>
     </div>
-    
-    
   )
 }
 

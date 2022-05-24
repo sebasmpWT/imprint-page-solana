@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import myImage from '../images/phantom-logo.png'
-import union from '../images/union.png'
 import nationBlack from '../images/nation-black.png'
 
 export default function Navbar() {
